@@ -12,7 +12,7 @@ class Student :
         self.country = country
 
     def greet(self):
-        return f"Hello {self.age} year old {self.name} from {self.country} welcome to the {self.school}."
+        return f"Hello {self.age} year old {self.first_name} {self.last_name} from {self.country} welcome to the {self.school}."
 
     def full_name(self):
         return f"{self.first_name} {self.last_name}"
